@@ -9,7 +9,7 @@
 
 using namespace std;
 int sudoku[9][9] = { 0 };
-int tryarray[9] = {1,2,3,4,5,6,7,8,9};
+int tryarray[9] = {6,1,2,3,4,5,7,8,9};
 
 int main(int arg, char* args[])
 {
