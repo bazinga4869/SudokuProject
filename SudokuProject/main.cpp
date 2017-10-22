@@ -39,14 +39,11 @@ int main(int arg, char* args[])
 						{
 							for (int j : sudoku[i])
 							{
-								std::cout << j << " ";
 								outfile << j << " ";
 							}
-							std::cout << endl;
-							outfile << "\r\n";
+							outfile << "\n";
 						}
-						outfile << "\r\n";
-						std::cout << "\n";
+						outfile << "\n";
 						//更新第一行的全排列
 						std::next_permutation(tryarray, tryarray + 8);
 					}
