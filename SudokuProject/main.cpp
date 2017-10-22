@@ -23,7 +23,7 @@ int main(int arg, char* args[])
 			{
 				num = atoi(args[2]);
 				//限定左上角第一个数字后第一行数字的全排列共8!种
-				if (num > 0 && num <= 362880)
+				if (num > 0 && num <= 40320)
 				{
 					ofstream outfile("sudoku.txt");
 					if (!outfile.is_open())
